@@ -1,3 +1,15 @@
 Bottle-Bootstrap
 
 A simple recipe for Bottle.py + Twitter Bootstrap + Heroku
+
+Instructions cribbed from
+http://blog.heroku.com/archives/2011/9/28/python_and_django/
+
+$ # First you need ruby + rubygems...
+$ # sudo aptitude install ruby rubygems
+$ gem install heroku
+$ # put heroku on your path
+$ heroku create --stack cedar
+$ git push heroku master
+
+Then visit the web address shown!
